@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aguarde, estamos redirecionando...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+        }
+        .loading {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Aguarde um momento...</h1>
+        <p>Estamos processando sua solicitação e você será redirecionado(a) para o checkout em alguns segundos.</p>
+        <div class="loading">Carregando...</div>
+    </div>
+
+    <script>
+        // Defina o tempo de espera em milissegundos (5000 ms = 5 segundos)
+        setTimeout(function() {
+            // Substitua a URL abaixo pelo link do checkout do curso na Kiwify
+            window.location.href = "https://pay.kiwify.com.br/AJ09jVm?afid=4ACacRds";
+        }, 5000);
+    </script>
+</body>
+</html>
